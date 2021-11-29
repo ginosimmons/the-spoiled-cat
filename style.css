@@ -8,7 +8,9 @@
     margin: 0;
     padding: 0;
 }
-
+a:link {
+    text-decoration: none;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -52,6 +54,11 @@ h2 {
     font-family: 'Rambla', sans-serif;
     font-weight: 700;
     margin: 0px;
+}
+h3{
+    font-family: 'Rambla', sans-serif;
+    font-size: 20px;
+    color: #F5E8DD
 }
 
 p {
@@ -128,16 +135,20 @@ svg .about{
 
 .two-col{
     display: flex;
-    width: 70vw;
+    width: 70%;
     margin: auto;
 }
 
 .two-col img{
     width: 100%;
     height: auto;
+    margin-right: 60px;
 }
 .two-col div{
     flex:  1;
+    margin-top: 115px;
+    margin-bottom: 115px;
+    margin: 
 }
 
 .catniplanding{
@@ -146,9 +157,7 @@ svg .about{
 .contenthomegrow{
     width: 454px;
     text-align: center;
-    margin-left: 115px;
-    margin-right: 160px;
-    margin-top: 150px;
+    margin-left: 60px;
 }
 
 .catreviews{
@@ -193,7 +202,6 @@ svg .about{
 .footercontent{
     width: 1120px;
     display: flex;
-    margin-left: 160px;
     justify-content: space-between;
     margin-top: 88px;
 }
@@ -226,6 +234,28 @@ svg .about{
 }
 .productsimages{
     width: 170px;
+}
+.productsbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin: auto;
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    background: #CF974A;
+    margin-bottom: 50px;
+}
+.productsbutton h3{
+    margin: auto;
+}
+
+.productsbutton:hover{
+    width: 300px;
+    height: 60px;
+    background: #e6b269;
 }
 
 .about{
