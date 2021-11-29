@@ -1,0 +1,247 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+</style>
+
+* {
+	box-sizing: border-box;
+    font-family: 'Rambla', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #403A33;
+    font-family: 'Rambla', sans-serif;
+}
+.logo{
+    color: #F5E8DD;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+.nav-links a{
+    color: #F5E8DD;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.nav-links li{
+    list-style: none;
+}
+
+h1 {
+    margin-left: 160px;
+    margin-top: 37px;
+    color: #F5E8DD;
+    font-size: 40px;
+    font-family: 'Rambla', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    color: #403A33;
+    font-size: 40px;
+    font-family: 'Rambla', sans-serif;
+    font-weight: 700;
+    margin: 0px;
+}
+
+p {
+    color: #403A33;
+    font-size: 18px;
+    font-family: 'Rambla', sans-serif;
+    font-weight: 300
+}
+
+body { 
+    margin:-10;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+.main {
+    background-color: #789737;
+}
+
+.landing {
+    display: flex;
+    width: 100vw;
+    height: 904px;
+    top: 275px;
+    background-color: #789737;
+}
+
+.landing p{
+    color: #F5E8DD;
+}
+.landing h2{
+    color: #F5E8DD;
+}
+
+svg 
+{
+    width: 600px;
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+svg .catline{
+    stroke: #F5E8DD;
+    stroke-width: 8px;
+    fill: none;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: animate 5s linear infinite;
+}
+svg .about{
+    width: 895px;
+}
+
+@keyframes animate{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+
+.introtext {
+    height: 189px;
+    margin-top: 228px;
+}
+
+.content{
+    width: 360px;
+    margin-top: 275px;
+    margin-left: 255px;
+
+}
+
+.two-col{
+    display: flex;
+    width: 100vw;
+}
+
+.two-col img{
+    display: flex;
+    width: 551px;
+    height: 367px;
+    margin-left:160px;
+    margin-top: 86px;
+}
+
+.catniplanding{
+    display: flex;
+    height: 540px;
+}
+.contenthomegrow{
+    width: 454px;
+    text-align: center;
+    margin-left: 115px;
+    margin-right: 160px;
+    margin-top: 150px;
+}
+
+.catreviews{
+    height: 382px;
+}
+.catreviewsrect{
+    height: 357px;
+    width: 100vw;
+    background-color: #789737;
+}
+.catimages{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.catimages h2 {
+    margin-top: 50px;
+}
+.cat1{
+    width: 266px;
+    margin-top: -208px;
+}
+.cat2{
+    width: 266px;
+    margin-top: -208px;
+}
+.cat3{
+    width: 266px;
+    margin-top: -208px;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 213px;
+    background-color: #403A33;
+    font-family: 'Rambla', sans-serif;
+}
+.footercontent{
+    width: 1120px;
+    display: flex;
+    margin-left: 160px;
+    justify-content: space-between;
+    margin-top: 88px;
+}
+
+.productsintro{
+    width:100vw;
+    height:420px;
+    background-color:#789737;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.productsintro h2{
+    text-align: center;
+    font-size:38px;
+    color: #F5E8DD;
+
+}
+.productsintro p{
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    color: #F5E8DD;
+}
+
+.productstext{
+    margin-left: 160px;
+    width: 326px;
+    margin-top: 100px;
+}
+.productsimages{
+    width: 170px;
+}
+
+.about{
+    height: 3100px;
+    width: 100vw;
+    background-color:white;
+}
+
+.sashimi{}
+.egg{}
+.pickle{}
+.refillablepillow{}
+.fuzzy{}
+.refillablebed{}
+.upholstery{}
+.sushiroll{}
+.carrot{}
+.smallbowl{}
+.medbowl{}
+.largebowl{}
