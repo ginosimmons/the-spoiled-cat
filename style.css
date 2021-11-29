@@ -75,9 +75,9 @@ body {
 .landing {
     display: flex;
     width: 100vw;
-    height: 904px;
-    top: 275px;
     background-color: #789737;
+    position: relative;
+    padding-bottom: 290px;
 }
 
 .landing p{
@@ -90,8 +90,8 @@ body {
 svg 
 {
     width: 600px;
-    position: relative;
-    left: 20%;
+    position: absolute;
+    right: 0;
     top: 20%;
 }
 svg .catline{
@@ -101,6 +101,7 @@ svg .catline{
     stroke-dasharray: 3000;
     stroke-dashoffset: 3000;
     animation: animate 5s linear infinite;
+    stroke-linecap: round;
 }
 svg .about{
     width: 895px;
@@ -127,20 +128,20 @@ svg .about{
 
 .two-col{
     display: flex;
-    width: 100vw;
+    width: 70vw;
+    margin: auto;
 }
 
 .two-col img{
-    display: flex;
-    width: 551px;
-    height: 367px;
-    margin-left:160px;
-    margin-top: 86px;
+    width: 100%;
+    height: auto;
+}
+.two-col div{
+    flex:  1;
 }
 
 .catniplanding{
     display: flex;
-    height: 540px;
 }
 .contenthomegrow{
     width: 454px;
