@@ -57,7 +57,8 @@ h2 {
 }
 h3{
     font-family: 'Rambla', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: medium;
     color: #F5E8DD
 }
 
@@ -239,8 +240,7 @@ svg .about{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
-    font-weight: bold;
+    font-weight: medium;
     margin: auto;
     width: 300px;
     height: 60px;
