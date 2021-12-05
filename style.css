@@ -11,6 +11,7 @@
 a:link {
     text-decoration: none;
 }
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -60,6 +61,10 @@ h3{
     font-size: 18px;
     font-weight: medium;
     color: #F5E8DD
+}
+h4{
+    font-size: 22px;
+    font-family: 'Rambla', sans-serif;
 }
 
 p {
@@ -190,21 +195,45 @@ svg .about{
     margin-top: -208px;
 }
 
-
+.productpage{
+    margin: 300px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.producttext{
+    max-width: 360px;
+    margin-right: 40px;
+}
 
 .footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 213px;
+    height: 120px;
     background-color: #403A33;
     font-family: 'Rambla', sans-serif;
 }
 .footercontent{
-    width: 1120px;
     display: flex;
     justify-content: space-between;
-    margin-top: 88px;
+}
+.footercontent p{
+    color: #F5E8DD;
+}
+.productsbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: medium;
+    margin: auto;
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    background: #CF974A;
+    margin-bottom: 50px;
+}
+.productsbutton:hover{
+    opacity: 80%;
 }
 
 .productsintro{
@@ -227,52 +256,64 @@ svg .about{
     text-align: center;
     color: #F5E8DD;
 }
-
-.productstext{
-    margin-left: 160px;
-    width: 326px;
-    margin-top: 100px;
+hr{
+    width: 1120px;
+    margin-top: 130px;
+    color: #403A33;
 }
-.productsimages{
-    width: 170px;
-}
-.productsbutton{
+.popular{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: medium;
-    margin: auto;
-    width: 300px;
-    height: 60px;
-    border-radius: 30px;
-    background: #CF974A;
-    margin-bottom: 50px;
-}
-.productsbutton h3{
-    margin: auto;
+    justify-content: space-around;
+    margin-top: 130px;
 }
 
-.productsbutton:hover{
-    width: 300px;
-    height: 60px;
-    background: #e6b269;
+
+
+.card h4{
+    font-size: 22px;
+    margin: auto;
+    padding-left: 12px;
+}
+.card p{
+    padding-left: 12px;
 }
 
+
+.card {
+    max-width: 200px;
+    margin: auto;
+    text-align: left;
+    font-family: 'Rambla', sans-serif;
+    color: #403A33;
+}
+
+
+.price {
+    color:#403A33;
+    font-size: 22px;
+    margin: 8px;
+}
+
+.card button {
+    border: none;
+    outline: 2px solid #403A33;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    color: #403A33;
+    background: white;
+}
+
+
+
+.card button:hover {
+    background-color: #403A33;
+    color: #F5E8DD;
+}
 .about{
-    height: 3100px;
-    width: 100vw;
-    background-color:white;
+height: 3100px;
+width: 100vw;
+background-color:white;
 }
-
-.sashimi{}
-.egg{}
-.pickle{}
-.refillablepillow{}
-.fuzzy{}
-.refillablebed{}
-.upholstery{}
-.sushiroll{}
-.carrot{}
-.smallbowl{}
-.medbowl{}
-.largebowl{}
