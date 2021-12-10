@@ -312,8 +312,117 @@ hr{
     background-color: #403A33;
     color: #F5E8DD;
 }
+
+
 .about{
-height: 3100px;
-width: 100vw;
-background-color:white;
+    margin-bottom: 260px;
+    width: 100vw;
+    position: relative;
+}
+
+
+.aboutline{
+    width: 900px;
+    margin: auto;
+    position:: absolute;
+    margin-top: 260px;
+}
+
+.circle1{
+    width: 54px;
+    height:54px;
+    border-radius: 50%;
+    background-color:#CF974A;
+    position: absolute;
+    top: -10;
+    left: 363px;
+}
+.circlecontent1{
+    max-width: 340px;
+    position: absolute;
+    left: 450px;
+    top: 0;
+}
+
+.circle2{
+    width: 54px;
+    height:54px;
+    border-radius: 50%;
+    background-color:#CF974A;
+    position: absolute;
+    top: 562px;
+    right: 367px;
+}
+.circlecontent2{
+    max-width: 340px;
+    position: absolute;
+    right: 450px;
+    top: 494px;
+    text-align: right;
+}
+
+.circle3{
+    width: 54px;
+    height:54px;
+    border-radius: 50%;
+    background-color:#CF974A;
+    position: absolute;
+    top: 1018;
+    left: 363px;
+}
+.circlecontent3{
+    max-width: 334px;
+    position: absolute;
+    left: 450px;
+    top: 971px;
+}
+
+.circle4{
+    width: 54px;
+    height:54px;
+    border-radius: 50%;
+    background-color:#CF974A;
+    position: absolute;
+    top: 1442px;
+    right: 367px;
+}
+.circlecontent4{
+    max-width: 340px;
+    position: absolute;
+    right: 450px;
+    top: 1340px;
+    text-align: right;
+}
+
+.circle5{
+    width: 54px;
+    height:54px;
+    border-radius: 50%;
+    background-color:#CF974A;
+    position: absolute;
+    top: 1916;
+    left: 363px;
+}
+.circlecontent5{
+    max-width: 390px;
+    position: absolute;
+    left: 450px;
+    top: 1822px;
+}
+
+.circle6{
+    width: 54px;
+    height:54px;
+    border-radius: 50%;
+    background-color:#CF974A;
+    position: absolute;
+    bottom: 0;
+    right: 367px;
+}
+.circlecontent6{
+    max-width: 340px;
+    position: absolute;
+    right: 450px;
+    bottom: 0;
+    text-align: right;
 }
